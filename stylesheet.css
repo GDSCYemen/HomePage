@@ -1,0 +1,90 @@
+.col-1{ width:8.33% ;}
+
+.col-2{ width: 16.66%;}
+
+.col-3{width: 25%;}
+
+.col-4{width: 30.33%;}
+
+.col-5{ width: 41.66%;}
+
+.col-6{width: 50%;}
+
+.col-7{width: 58.33%;}
+
+.col-8{ width: 66.66%;}
+
+.col-9{width: 75%;}
+
+.col-10{width: 83.33;}
+
+.col-11{ width: 91.66%;}
+
+.col-12{width: 100%;}
+
+.col-12 img{
+    width: 100%;
+}
+img{
+    margin: auto;
+    height: 150px;
+    display: block;
+
+    height: 150px;
+    margin: auto;
+}
+.heads{
+    
+    text-align: center;
+}
+h1{
+    display: inline-block;
+    margin: 20px 110px;
+}
+.row{
+    width: 100%;
+    text-align: center;
+    display:flex ;
+    justify-content: space-evenly;
+}
+.box{
+    height: auto;
+    border-radius: 7px; 
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15),
+    0 2px 3px 0 rgba(0, 0, 0, 0.1) ;
+    
+}
+svg.instagram{
+    background: linear-gradient(#833ab4,#fd1d1d,#fcb045);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+svg.twitter{
+    width: 50px;    
+    height: 50px;
+    color: #00acee;
+    
+}
+svg.facebook{
+    width: 50px;
+    height: 50px;
+    color: #3b5998;
+}
+svg{
+    margin: 0px 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 680px)
+{
+    .row{
+        display: block;
+    }
+}
