@@ -39,7 +39,7 @@ img{
 }
 h1{
     display: inline-block;
-    margin: 20px 110px;
+    
 }
 .row{
     width: 100%;
@@ -87,4 +87,12 @@ a{
     .row{
         display: block;
     }
+    .col-4{
+            width: 90%;
+           margin: 20px;
+    }
+    h1{
+            margin: 0px;
+            margin-top: 20px;
+    }   
 }
